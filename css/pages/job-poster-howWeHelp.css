@@ -1,0 +1,243 @@
+.job-poster-howWeHelp-main .first-section {
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content {
+    padding: 120px 0 64px 0;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .page-path {
+    text-align: end;
+    font: normal normal 16px/35px Poppins;
+    font-family: Poppins-Medium;
+    color: #01E9A1;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .page-path .underline,
+.job-poster-howWeHelp-main .first-section .first-section-content .page-path .underline:hover {
+    border-bottom: 1px solid #01E9A1;
+    text-decoration: none;
+    color: #01E9A1;
+}
+
+
+.job-poster-howWeHelp-main .first-section .first-section-content .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .title .shadow-title {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    top: -40%;
+    width: 100%;
+    margin: 0 auto;
+    font: normal normal bold 55px/50px Poppins;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .title .main-title {
+    font: normal normal bold 32px/50px Poppins;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .info .text {
+    width: 60%;
+    color: #ffffff;
+    font: normal normal bold 42px/63px Poppins;
+    font-family: Poppins-Bold;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .info .text .green {
+    color: #01E9A1;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .info .image {
+    width: 40%;
+}
+
+.job-poster-howWeHelp-main .first-section .first-section-content .info .image img {
+    max-width: 525px;
+    max-height: 362px;
+}
+
+.job-poster-howWeHelp-main .second-section {
+    position: relative;
+    width: 100%;
+    background: transparent linear-gradient(180deg, #E5E7FF 0%, #F3F7FC 100%) 0% 0% no-repeat padding-box;
+    margin: 20px 0;
+}
+
+/* .job-poster-howWeHelp-main .second-section:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("../../images/line4.svg");
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+    position: absolute;
+    top: 0;
+} */
+
+.job-poster-howWeHelp-main .second-section .second-section-content {
+    padding-top: 45px;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .first-part, .job-poster-howWeHelp-main .second-section .second-section-content .second-part,
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part, .job-poster-howWeHelp-main .third-section .third-section-content .second-part {
+    display: flex;
+    align-items: center;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list,
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list {
+    width: 70%;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list,
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list {
+    width: 65%;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list .text-item:nth-child(1),
+.job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list .text-item:nth-child(1),
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item:nth-child(1),
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item:nth-child(1) {
+    padding-bottom: 27px;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list .text-item .title,
+.job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list .text-item .title,
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item .title,
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item .title {
+    font: normal normal 600 18px/50px Poppins;
+    font-family: Poppins-Regular;
+    color: #06759C;
+}
+
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item .title.green,
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item .title.green {
+    color: #01E9A1;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list .text-item .description,
+.job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list .text-item .description,
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item .description,
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item .description {
+    max-width: 875px;
+    width: 100%;
+    font: normal normal normal 18px/22px Poppins;
+    font-family: Poppins-Regular;
+    color: #102D37;
+}
+
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item .description,
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item .description {
+    color: #ffffff;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .first-part .image {
+    display: flex;
+    width: 35%;
+    z-index: 1;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .second-part .image,
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .image {
+    width: 45%;
+    display: flex;
+    z-index: 1;
+}
+
+.job-poster-howWeHelp-main .second-section .second-section-content .first-part .image img {
+    max-width: 311px;
+    max-height: 321px;
+}
+
+
+.job-poster-howWeHelp-main .second-section .second-section-content .second-part .image img {
+    max-width: 722px;
+    max-height: 481px;
+}
+
+.job-poster-howWeHelp-main .third-section {
+    position: relative;
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+/* .job-poster-howWeHelp-main .third-section:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("../../images/line5.svg");
+    background-repeat: no-repeat;
+    background-position: 70%;
+    position: absolute;
+    top: 0;
+} */
+
+.job-poster-howWeHelp-main .third-section .third-section-content {
+    padding: 50px 0 120px 0;
+}
+
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .image {
+    width: 45%;
+    display: flex;
+    z-index: 1;
+}
+
+.job-poster-howWeHelp-main .third-section .third-section-content .first-part .image img {
+    max-width: 595px;
+    max-height: 475px;
+    margin: 0 auto;
+}
+
+.job-poster-howWeHelp-main .third-section .third-section-content .second-part .image img {
+    max-width: 422px;
+    max-height: 325px;
+    margin: 0 auto;
+}
+.path {
+    animation: dash 10s linear;
+    animation-iteration-count: infinite;
+position: absolute;
+opacity: 0.7;
+  }
+  .eTBsmfdzvOU1{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+     
+     
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: -800;
+      
+    }
+  }
+
+  .svg_opacity{
+      opacity: .4;
+  }

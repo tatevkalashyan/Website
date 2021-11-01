@@ -1,0 +1,92 @@
+.pricing-section1,
+.pricing-section3 {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0 0 no-repeat padding-box;
+    color: #fff;
+}
+.title-white {
+    font: normal normal 800 32px/32px "Poppins-Bold";
+    color: #FFFFFF;
+}
+.title-white .shadow-title{
+    font: normal normal 800 55px/30px "Poppins-Bold";
+    color: rgba(255, 255, 255, 0.15);
+}
+.pricing-section2 {
+    background: transparent linear-gradient(180deg, #E5E7FF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    color: #000000;
+}
+.pricing-section2  h4{
+    font: normal normal 600 25px/33px "Poppins-Medium";
+    color: #000000;
+}
+.pricing-table .table-bordered td {
+    border: 2px solid #000000;
+    font: normal normal 600 16px/25px "Poppins-Medium";
+    color: #000000;
+}
+.pricing-table .table-bordered th {
+    border: 2px solid #000000;
+    font: normal normal 600 20px/25px "Poppins-Medium";
+    color: #000000;
+}
+.pricing-table {
+    max-height: 400px;
+    overflow: auto;
+    border-radius: 15px;
+}
+.pricing-table .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #0c0c0c;
+}
+.pricing-table .table thead th:first-child {
+    background-color: rgba(235, 236, 251, 0.89);
+}
+.pricing-table .table thead th:nth-child(2) {
+    background-color: rgba(239, 255, 255, 0.89);
+    text-align: center;
+}
+.pricing-table .table thead th:nth-child(3) {
+    background-color: rgba(248, 241, 251, 0.89);
+    text-align: center;
+}
+
+.pricing-table .table tbody tr:nth-child(odd) td:first-child {
+    background-color: rgba(229, 231, 255, 0.89);
+}
+.pricing-table .table tbody tr:nth-child(odd) td:nth-child(2) {
+    background-color: rgba(232, 255, 255, 0.89);
+}
+.pricing-table .table tbody tr:nth-child(odd) td:nth-child(3) {
+    background-color: rgba(250, 239, 255, 0.89);
+}
+
+.pricing-table .table tbody tr td:first-child {
+    background-color: rgba(235, 236, 251, 0.89);
+}
+.pricing-table .table tbody tr td:nth-child(2) {
+    background-color: rgba(239, 255, 255, 0.89);
+    text-align: center;
+}
+.pricing-table .table tbody tr td:nth-child(3) {
+    background-color: rgba(248, 241, 251, 0.89);
+    text-align: center;
+}
+
+.animation-img-pricing{
+    animation-name: pricing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes pricing {
+    0%{
+        transform: translate(0px,0px);
+    }
+
+    70%{
+        transform: translate(5px,15px);
+    }
+
+}

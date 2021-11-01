@@ -1,0 +1,36 @@
+.blog_content p {
+    font: normal normal 400 16px/25px "Poppins-Regular";
+    color: #FFFFFF;
+}
+.blog_content .text {
+    font: normal normal 800 25px/42px "Poppins-Bold";
+}
+.blog_content .bg-light {
+    background: transparent linear-gradient(64deg, #E6FFFF 0%, #E5E7FF 100%) 0 0 no-repeat padding-box;
+}
+.blog_content .blog-card-item {
+    width: 368px;
+    margin: 0 auto;
+}
+.blog_content .card-item-title {
+    font: normal normal 600 20px/30px "Poppins-Medium";
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 16px;
+}
+.blog_content .blog-card-text {
+    font: normal normal 400 16px/25px "Poppins-Regular";
+    color: #000000;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.bg-black .title {
+    font: normal normal 500 25px/38px "Poppins-Medium";
+    color: #FFFFFF;
+}

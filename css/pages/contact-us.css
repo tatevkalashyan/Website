@@ -1,0 +1,144 @@
+.contactUs-main section {
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 50% 45%, #102D37 5%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.contactUs-main .contactUs-content {
+    padding-top: 200px;
+}
+
+.contactUs-main .contactUs-content .title {
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.contactUs-main .contactUs-content .title .shadow-title {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    top: -40%;
+    width: 100%;
+    margin: 0 auto;
+    font: normal normal bold 55px/60px Poppins;
+    color: #FFFFFF;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+}
+
+.contactUs-main .contactUs-content .title .main-title {
+    font: normal normal bold 32px/50px Poppins;
+    color: #FFFFFF;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+    text-align: center;
+}
+
+.contactUs-main .contactUs-content .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+
+.contactUs-main .contactUs-content .info .contact-form {
+    width: 60%;
+}
+
+.contactUs-main .contactUs-content .info .contact-form .contact-description {
+    max-width: 436px;
+    font: normal normal normal 14px/21px Poppins;
+    font-family: Poppins-Regular;
+    color: #01E9A1;
+    padding-bottom: 19px;
+}
+
+.contactUs-main .contactUs-content .info .contact-form .contact-form-item {
+    width: 100%;
+    margin-bottom: 22px;
+    display: flex;
+}
+
+.contactUs-main .contactUs-content .info .contact-form .contact-form-item select, .contactUs-main .contactUs-content .info .contact-form .contact-form-item input {
+    max-width: 479px;
+    width: 100%;
+    height: 44px;
+    font: normal normal normal 14px/21px Poppins;
+    font-family: Poppins-Regular;
+    color: #FFFFFF;
+    padding: 12px 17px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background: transparent;
+}
+
+
+.contactUs-main .contactUs-content .info .contact-form .contact-form-item select option {
+    background: #363F4B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+}
+
+.contactUs-main .contactUs-content .info .contact-form .contact-form-item textarea {
+    max-width: 479px;
+    height: 99px;
+    width: 100%;
+    font: normal normal normal 14px/21px Poppins;
+    font-family: Poppins-Regular;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background: transparent;
+    padding: 12px 17px;
+    resize: none;
+}
+
+.contactUs-main .contactUs-content .info .contact-form .google-check img {
+    max-width: 282px;
+    max-height: 72px;
+}
+
+.contactUs-main .contactUs-content .info .contact-form .contact-submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 156px;
+    margin: 40px 0;
+    height: 41px;
+    background: transparent linear-gradient(100deg, #FFF5B2 0%, #8EE4B9 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 29px;
+    font: normal normal 14px/21px Poppins;
+    font-family: Poppins-Medium;
+    border: none;
+    color: #202941;
+    text-shadow: 0px 3px 6px #00000029;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactUs-main .contactUs-content .info .image {
+    width: 40%;
+    display: flex;
+}
+
+.contactUs-main .contactUs-content .info .image img {
+    max-width: 444px;
+    margin: 0 auto;
+}
+
+
+
+.link_faq a{
+    color: #01E9A1;
+    text-decoration: underline!important;
+}
+
+#eJx49uSg6LU1{
+    max-width: 400px;
+}

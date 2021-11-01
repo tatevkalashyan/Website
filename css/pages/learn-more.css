@@ -1,0 +1,51 @@
+.learn-more-content .section1 {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0 0 no-repeat padding-box;
+    color: #fff;
+}
+.learn-more-content .section1 .text {
+    color: #fff;
+    font: normal normal 800 42px/63px "Poppins-Bold";
+}
+.learn-more-content .section2 {
+    background: transparent linear-gradient(180deg, #FFF1FF 0%, #F3F7FC 100%) 0 0 no-repeat padding-box;
+    color: #000;
+}
+.learn-more-content .section2 h5 {
+    font: normal normal 600 18px/30px "Poppins-Medium";
+    color: #06759C;
+    margin-bottom: 0;
+}
+.learn-more-content .section2 p {
+    font: normal normal 500 18px/22px "Poppins-Regular";
+}
+.learn-more-content .section3 {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0 0 no-repeat padding-box;
+    color: #fff;
+}
+.learn-more-content .section3 h5 {
+    font: normal normal 600 18px/30px "Poppins-Medium";
+    color: #01E9A1;
+    margin-bottom: 0;
+}
+.learn-more-content .section3 p {
+    font: normal normal 500 18px/22px "Poppins-Regular";
+}
+.learn-more .slider-item  {
+    transition: all 0.7s;
+}
+.learn-more .slick-active {
+    transition: all 0.3s;
+   transform: scale(1.2);
+}
+a.underline {
+
+    border-bottom: 1px solid #01E9A1;
+    text-decoration: none;
+    color: #01E9A1;
+}
+
+@media (max-width: 1200px) {
+    .learn-more-content .section1 .text {
+        font: normal normal 800 32px/50px "Poppins-Bold";
+    }
+}

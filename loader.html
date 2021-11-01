@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #223040;
+}
+.loader{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#30435A,transparent 40%, #01E9A1,#03B8FA);
+    animation: animate 2s linear infinite;
+
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+       
+    }
+    100%{
+        transform: rotate(360deg);
+       
+    }
+}
+.loader:before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: #223040;
+    border-radius: 50%;
+    z-index: 1000;
+}
+.loader:after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(45deg,transparent,transparent 40%, #01E9A1,#03b8fa);
+    border-radius: 50%;
+    z-index: 1000;
+    z-index: 1;
+    filter: blur(30px);
+    opacity: .2;
+}
+
+.overlay{
+    position: relative;
+}
+.overlay img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="overlay">
+         <div class="loader"></div>
+        <img src="images/small-logo.svg" alt="">
+
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+@import "style.css";
+
+/*bootstrap css*/
+@import "plugins/bootstrap.min.css";
+
+/*slick slider*/
+@import "plugins/slick-theme.css";
+@import "plugins/slick.css";
+
+/*header*/
+@import "layouts/header.css";
+
+/*footer*/
+@import "layouts/footer.css";
+
+/*job seeker*/
+@import "pages/job-seeker.css";
+
+/*rewards program*/
+@import "pages/rewards-program.css";
+
+/*job seeker how it works*/
+@import "pages/job-seeker-howItWorks.css";
+
+/*job poster how we help*/
+@import "pages/job-poster-howWeHelp.css";
+
+/*about us*/
+@import "pages/about-us.css";
+
+/*contact us*/
+@import "pages/contact-us.css";
+
+/*FAQ css*/
+@import "pages/faq.css";
+
+/*job poster*/
+@import "pages/job-poster.css";
+
+
+/*pricing*/
+@import "pages/pricing.css";
+/*cancellation*/
+@import "pages/cancellation.css";
+/*ambassador-program*/
+@import "pages/ambassador-program.css";
+/*learn-more*/
+@import "pages/learn-more.css";
+/*blog*/
+@import "pages/blog.css";
+/*contributors*/
+@import "pages/contributors.css";
+/*privacy-policy*/
+@import "pages/privacy-policy.css";
+
+@import "pages/home.css";
+
+/*responsive*/
+@import "responsive.css";

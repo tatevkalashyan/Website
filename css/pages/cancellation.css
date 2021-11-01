@@ -1,0 +1,105 @@
+.cancellation-section1,
+.cancellation-section3 {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0 0 no-repeat padding-box;
+    font: normal normal 500 16px/27px "Poppins-Medium";
+    color: #FFFFFF;
+}
+.title-black {
+    font: normal normal 800 32px/32px "Poppins-Bold";
+    color: #000000;
+}
+.title-black .shadow-title{
+    font: normal normal 800 55px/30px "Poppins-Bold";
+    color: rgba(0, 0, 0, 0.15);
+}
+.cancellation-section2 {
+    background: transparent linear-gradient(180deg, #E5E7FF 0%, #FFFFFF 100%) 0 0 no-repeat padding-box;
+    color: #000000;
+}
+.cancellation-section2 .text{
+    font: normal normal 600 16px/27px "Poppins-Medium";
+}
+
+.color-blue {
+    color: #2E62BC;
+}
+
+.table-dark .table-bordered th,
+.table-dark .table-bordered td {
+    border: 2px solid #ffffff;
+    font: normal normal 16px/25px "Poppins-Medium";
+    color: #ffffff;
+}
+.table-dark {
+    max-height: 400px;
+    overflow: auto;
+    border-radius: 15px;
+}
+.table-dark .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ffffff;
+}
+.table-dark .table thead  th:first-child {
+    background-color: rgba(42, 61, 94, 0.89);
+}
+.table-dark .table thead  th:nth-child(2) {
+    background-color: rgba(44, 80, 93, 0.89);
+}
+.table-dark .table thead th:nth-child(3) {
+    background-color: rgba(95, 111, 142, 0.89);
+}
+.table-dark .table tbody th{
+    background-color: rgba(77, 95, 128, 0.89);
+}
+.table-dark .table tbody td:nth-child(2) {
+    background-color: rgba(21, 61, 74, 0.89);
+}
+.table-dark .table tbody td:nth-child(3) {
+    background-color: rgba(63, 80, 111, 0.89);
+}
+.table-dark .table tbody .sub-tr td:nth-child(1) {
+    background-color: rgba(43, 80, 93, 0.89);
+}
+.table-dark .table tbody .sub-tr td:nth-child(2) {
+    background-color: rgba(77, 95, 128, 0.89);
+}
+
+.table-light .table-bordered th,
+.table-light .table-bordered td {
+    border: 2px solid #000000;
+    font: normal normal 16px/25px "Poppins-Medium";
+    color: #000000;
+}
+.table-light {
+    max-height: 400px;
+    overflow: auto;
+    border-radius: 15px;
+}
+.table-light .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #000000;
+}
+.table-light .table thead  th:first-child {
+    background-color: rgba(234, 235, 248, 0.89);
+}
+.table-light .table thead  th:nth-child(2) {
+    background-color: rgba(208, 231, 232, 0.89);
+}
+.table-light .table thead th:nth-child(3) {
+    background-color: rgba(245, 239, 248, 0.89);
+}
+.table-light .table tbody  th{
+    background-color: rgba(228, 230, 252, 0.89);
+}
+.table-light .table tbody td:nth-child(2) {
+    background-color: rgba(237, 255, 255, 0.89);
+}
+.table-light .table tbody td:nth-child(3) {
+    background-color: rgba(247, 237, 252, 0.89);
+}
+.table-light .table tbody .sub-tr td:nth-child(1) {
+    background-color: rgba(210, 230, 231, 0.89);
+}
+.table-light .table tbody .sub-tr td:nth-child(2) {
+    background-color: rgba(243, 237, 245, 0.89);
+}

@@ -1,0 +1,159 @@
+header {
+  width: 100%;
+  height: 100px;
+  background: transparent linear-gradient(180deg, #E6FFFF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  -webkit-transition-duration: 0.5s;
+  z-index: 2;
+}
+
+header.header-up {
+  top: -100px;
+}
+
+header .navbar {
+  padding: .5rem 0 !important;
+
+  background-color: transparent !important;
+}
+
+header .navbar-brand {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+header .navbar-brand img {
+  max-width: 180px;
+}
+header .navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 0;
+  border-bottom: 5px solid #417EE7;
+}
+header .dropdown-item {
+  height: 40px;
+  font: normal normal 400 14px/21px "Poppins-Regular";
+  color: #000000;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dotted #417EE738;
+}
+header .dropdown-item:last-child {
+  border-bottom: 0;
+}
+header .dropdown-item:focus,
+header .dropdown-item:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #417EE7;
+}
+
+
+header .header-navbar-list .header-navbar-item {
+  font: normal normal normal 18px/27px Poppins;
+  font-family: Poppins-Regular;
+  color: #08161B !important;
+  margin: 0 25px !important;
+  padding: 6px 0 !important;
+}
+
+header .header-navbar-list .header-navbar-item.active, header .header-navbar-list .header-navbar-item:hover {
+  border-bottom: 2px solid #01E9A1;
+}
+
+header .header-buttons .login {
+  width: 119px;
+  height: 48px;
+  border: 1px solid #06759C;
+  border-radius: 24px;
+  font: normal normal 600 16px/25px Poppins;
+  font-weight: 600;
+  font-family: Poppins-Regular;
+  color: #0F2932;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 18px;
+}
+
+header .header-buttons .login:hover {
+  text-decoration: none !important;
+  border: none;
+  background: transparent linear-gradient(107deg, #01E9A1 0%, #04BBFD 100%) 0% 0% no-repeat padding-box;
+
+}
+
+header .header-buttons .sign-up {
+  width: 149px;
+  height: 48px;
+  background: transparent linear-gradient(107deg, #01E9A1 0%, #04BBFD 100%) 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  font: normal normal 600 16px/25px Poppins;
+  font-weight: 600;
+  font-family: Poppins-Regular;
+  color: #0F2932;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 0 rgba(143, 250, 217, 255);
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  text-decoration: none !important;
+  transition: all 300ms ease-in-out;
+  opacity: 1;
+}
+
+header .header-buttons .sign-up:hover {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+  text-decoration: none !important;
+}
+
+header .navbar-collapse.show {
+  background: #ffffff;
+  z-index: 1;
+}
+
+header .navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+header .navbar-light .navbar-toggler:focus {
+  outline: none !important;
+}
+
+
+@-webkit-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 8px rgba(143, 245, 217, 255)
+  }
+}
+
+@-moz-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 8px rgba(143, 245, 217, 255);
+  }
+}
+
+@-ms-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 8px rgba(143, 245, 217, 255);
+  }
+}
+
+@keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 8px rgba(143, 245, 217, 255);
+  }
+}

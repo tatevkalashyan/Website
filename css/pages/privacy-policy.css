@@ -1,0 +1,60 @@
+.privacy-policy-content p {
+    font: normal normal normal 16px/33px "Poppins-Regular";
+    margin-bottom: 40px;
+}
+.privacy-policy-content.faq-main .first-faq-list {
+    background: transparent linear-gradient(33deg, #FFF7EC 0%, #E5E7FF 100%) 0% 0% no-repeat padding-box;
+}
+.privacy-policy-content.faq-main .first-faq-list p{
+    color: #000000;
+}
+.privacy-policy-content.faq-main .second-faq-list {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+.privacy-policy-content.faq-main .first-faq-list .faq-item .title {
+    margin-bottom: 18px;
+}
+.privacy-policy-content .information-title {
+    font: normal normal 600 20px/33px "Poppins-Regular";
+    color: #FFFFFF;
+}
+
+.privacy-policy-content .information-list {
+    font: normal normal 500 16px/37px "Poppins-Medium";
+    color: #FFFFFF;
+}
+.privacy-policy-content .information-title.purple {
+    background: #3F506F 0 0 no-repeat padding-box;
+}
+.privacy-policy-content .information-list.purple {
+    background: #5E6E8E 0 0 no-repeat padding-box;
+}
+.privacy-policy-content .information-title.dark-green {
+    background: #41616E 0 0 no-repeat padding-box;
+}
+.privacy-policy-content .information-list.dark-green {
+    background: #153D4A 0 0 no-repeat padding-box;
+}
+.privacy-policy-content .title-light-blue {
+    background: #D2E6E7 0 0 no-repeat padding-box;
+    font: normal normal 600 20px/33px "Poppins-Regular";
+    color: #000000;
+    margin: 4px 2px;
+}
+.privacy-policy-content .text-light-blue {
+    background: #EDFFFF 0 0 no-repeat padding-box;
+    font: normal normal 500 16px/25px "Poppins-Medium";
+    color: #000000;
+    margin: 4px 2px;
+    min-height: 98px;
+}
+.privacy-policy-content .bg-light {
+    background: transparent linear-gradient(71deg, #E6FFFF 0%, #E5E7FF 100%) 0 0 no-repeat padding-box;
+    font: normal normal 500 16px/27px "Poppins-Medium";
+    color: #102D37;
+}
+.privacy-policy-content .bg-light-rose {
+    background: transparent linear-gradient(54deg, #E6FFFF 0%, #FFF1FF 100%) 0 0 no-repeat padding-box;
+    font: normal normal 500 16px/27px "Poppins-Medium";
+    color: #102D37;
+}

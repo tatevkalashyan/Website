@@ -1,0 +1,102 @@
+.rewards-program-main section {
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 50% 45%, #102D37 5%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.rewards-program-main .rewards-program-content {
+    padding-top: 200px;
+}
+
+.rewards-program-main .rewards-program-content .title {
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.rewards-program-main .rewards-program-content .title .shadow-title {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    top: -40%;
+    width: 100%;
+    margin: 0 auto;
+    font: normal normal bold 55px/30px Poppins;
+    color: #FFFFFF;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+}
+
+.rewards-program-main .rewards-program-content .title .main-title {
+    font: normal normal bold 32px/50px Poppins;
+    color: #FFFFFF;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+    text-align: center;
+}
+
+.rewards-program-main .rewards-program-content .description {
+    max-width: 1079px;
+    width: 100%;
+    margin:  0 auto;
+    text-align: center;
+    font: normal normal normal 18px/24px Poppins;
+    font-family: Poppins-Regular;
+    color: #ffffff;
+    padding-bottom: 85px;
+}
+
+.rewards-program-main .rewards-program-content .description .green,
+.rewards-program-main .rewards-program-content .info .rewards-program-list ul .rewards-program-item .green {
+    color: #01E9A1;
+}
+
+.rewards-program-main .rewards-program-content .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+
+.rewards-program-main .rewards-program-content .info .image {
+    width: 45%;
+}
+
+.rewards-program-main .rewards-program-content .info .image img {
+    max-width: 615px;
+    max-height: 383px;
+}
+
+.rewards-program-main .rewards-program-content .info .rewards-program-list {
+    width: 55%;
+}
+
+.rewards-program-main .rewards-program-content .info .rewards-program-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rewards-program-main .rewards-program-content .info .rewards-program-list ul .rewards-program-item {
+    background: url("../../images/stared-circle-green.svg") no-repeat;
+    background-position: unset;
+    font: normal normal normal 18px/22px Poppins;
+    font-family: Poppins-Regular;
+    color: #ffffff;
+    padding: 0 0 20px 40px;
+}
+
+.rewards-program-main .rewards-program-content .info .rewards-program-list ul .rewards-program-item.active {
+    background: url("../../images/stared-circle-blue.svg") no-repeat;
+    background-position: unset;
+}
+
+.rewards-program-main .rewards-program-content .short-info {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font: normal normal normal 18px/22px Poppins;
+    font-family: Poppins-Regular;
+    padding-bottom: 25px;
+}

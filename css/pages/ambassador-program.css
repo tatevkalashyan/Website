@@ -1,0 +1,69 @@
+.ambassador-program-content .section1 {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0 0 no-repeat padding-box;
+    color: #fff;
+    font: normal normal 500 20px/28px "Poppins-Regular";
+}
+.ambassador-program-content .section2 {
+    /*background: transparent linear-gradient(70deg, #E6FFFF 0%, #FFF1FF 100%) 0 0 no-repeat padding-box;*/
+    background: transparent linear-gradient(182deg, #102D37 0%, #263238 100%) 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font: normal normal 400 16px/28px "Poppins-Medium";
+}
+.ambassador-program-content .section3 {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0 0 no-repeat padding-box;
+    color: #fff;
+    font: normal normal 600 16px/28px "Poppins-Medium";
+}
+.ambassador-program-content .carousel-section {
+    background: transparent linear-gradient(66deg, #E6FFFF 0%, #FFF1FF 100%) 0% 0% no-repeat padding-box;
+    font: normal normal 600 16px/28px "Poppins-Medium";
+}
+.ambassador-program-content .section3 .title-white {
+    font: normal normal 800 28px/30px "Poppins-Bold";
+    padding-left: 30px;
+    zoom: 0.8;
+}
+.ambassador-program-content .section3 .shadow-title {
+    font: normal normal 800 30px/49px "Poppins-Bold";
+    margin-bottom: -60px;
+    margin-left: -30px;
+}
+.ambassador-program-content .carousel-section  .abs {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.ambassador-program-content .carousel-section  .card-item hr {
+    border-top: 1px dashed rgba(232, 255, 255, 0.18);
+}
+.ambassador-program-content .carousel-section  .card-item ul li:hover a .a {
+    fill: #fff!important;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 36px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 1;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #01E9A1;
+}

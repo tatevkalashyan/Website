@@ -1,0 +1,1103 @@
+/*media screen 1600px*/
+@media screen and (max-width: 1600px) {
+    .main-container {
+        max-width: 1440px;
+    }
+
+    .job-seeker-main .forth-section .background-light {
+        max-width: 950px;
+    }
+
+
+    .business-areas .slick-dots li a {
+        font: normal normal 500 20px/40px "Poppins-Medium"!important;
+        white-space: nowrap;
+    }
+
+
+}
+
+/*media screen 1440px*/
+@media screen and (max-width: 1440px) {
+    .main-container {
+        max-width: 1360px;
+    }
+
+
+    .job-seeker-howItWorks-main .third-section:after {
+        background-position: 84%;
+    }
+
+    .job-seeker-howItWorks-main .forth-section:after {
+        background-size: 70% 100%;
+    }
+
+    .job-seeker-main .second-section .second-section-content .image img {
+        max-width: 900px;
+        max-height: 850px;
+    }
+
+    .aboutUs-main .second-section .second-section-content .info .image {
+        width: 30%;
+    }
+
+    .aboutUs-main .second-section .second-section-content .info .text {
+        width: 65%;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info .text {
+        width: 50%;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info .image {
+        width: 40%;
+    }
+}
+
+/*media screen 1366px*/
+@media screen and (max-width: 1366px) {
+    .animation-img{
+        top: 21%;
+    }
+    .main-container {
+        max-width: 1200px;
+    }
+
+    header .header-navbar-list .header-navbar-item {
+        font: normal normal normal 16px/27px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    header .header-buttons .login {
+        width: 95px;
+        height: 45px;
+        font: normal normal 600 14px/25px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    header .header-buttons .sign-up {
+        width: 100px;
+        height: 45px;
+        font: normal normal 600 14px/25px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-main .forth-section .background-light {
+        max-width: 850px;
+        max-height: 560px;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info .text {
+        width: 65%;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info .image {
+        width: 35%;
+    }
+    .eTBsmfdzvOU1,.eTBsmfdzvOU2{
+        opacity: 0.5;
+    }
+}
+
+/*media screen 1200px*/
+@media screen and (max-width: 1200px) {
+    .animation-img{
+        top: 17%;
+    }
+    .main-container {
+        max-width: 1110px;
+    }
+
+    header .navbar-brand img {
+        max-width: 150px;
+    }
+
+    header .header-navbar-list .header-navbar-item {
+        margin: 0 15px !important;
+    }
+
+    .job-seeker-main .forth-section .background-light {
+        max-width: 750px;
+        max-height: 500px;
+    }
+}
+
+/*media screen 1024px*/
+@media screen and (max-width: 1024px) {
+    .free-to-use {
+        width: 95%;
+        margin: 0 !important;
+        padding: 20px 0 40px 40px!important;
+        bottom: 0;
+    }
+    .animation-img{
+        top: 27%;
+    }
+    .main-container {
+        max-width: 992px;
+    }
+
+    .main-container.mobile-container {
+        max-width: 100%;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    header .navbar-brand {
+        padding: 0 0 0 35px!important;
+    }
+
+    header .navbar-light .navbar-toggler {
+        margin-right: 35px;
+    }
+
+    header .navbar-collapse.show {
+        padding: 35px;
+    }
+
+    header .header-navbar-list .header-navbar-item.active, header .header-navbar-list .header-navbar-item:hover {
+        border-bottom: none;
+        color: #01E9A1 !important;
+    }
+
+
+    .job-seeker-main .first-section .first-section-content {
+        padding: 130px 0 50px 0;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-text-part, .job-seeker-main .first-section .first-section-content .first-section-image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-text-part .title, .aboutUs-main .first-section .first-section-content .info .info-title {
+        font: normal normal 800 35px/40px "Poppins-Bold";
+        padding-right: 125px;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-text-part .description {
+        max-width: 100%;
+        font: normal normal 16px/28px "Poppins-Regular";
+        padding-bottom: 40px;
+        padding-right: 125px;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-image img {
+        max-width: 500px;
+        max-height: 400px;
+        margin: 40px auto;
+    }
+
+    .job-seeker-main .second-section .second-section-content .title .shadow-title {
+        top: -25%;
+        font: normal normal 800 40px/70px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .second-section .second-section-content .title .main-title {
+        font: normal normal 800 35px/70px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .second-section .second-section-content .image img {
+        max-width: 450px;
+        max-height: 400px;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item,
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item-first,
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item-second {
+        margin: 22px 0;
+        width: 100%;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item.custom {
+        margin: 0;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item .koligate-logo:after {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    .job-seeker-main .fifth-section .fifth-section-content {
+        flex-direction: column-reverse;
+        padding: 80px 0;
+    }
+
+    .job-seeker-main .fifth-section .fifth-section-content .video-part, .job-seeker-main .fifth-section .fifth-section-content .title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .job-seeker-main .fifth-section .fifth-section-content .title .shadow-title, .job-seeker-main .fifth-section .fifth-section-content .title .main-title {
+        font: normal normal 800 35px/63px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .fifth-section .fifth-section-content .video-part img {
+        max-width: 600px;
+        max-height: 600px;
+        margin: 0 auto;
+    }
+
+    .job-seeker-main .sixth-section .sixth-section-content .title .main-title {
+        font: normal normal bold 30px/50px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .sixth-section .sixth-section-content .title .shadow-title {
+        font: normal normal bold 40px/85px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .sixth-section .sixth-section-content .koligate-benefits-list .koligate-benefits-item .front-card span {
+        font: normal normal 600 22px/32px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-main .forth-section .background-light {
+        display: none;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part {
+        flex-direction: column-reverse;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part .koligate-screens,
+    .job-seeker-main .forth-section .forth-section-content .slider-part .slider-list {
+        width: 100%;
+        top: 0;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part .koligate-screens .koligate-screens-item {
+        font: normal normal 22px/50px Poppins;
+        font-family: Poppins-Medium;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content {
+        flex-direction: column-reverse;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title, .job-seeker-main .seventh-section .seventh-section-content .image {
+        width: 100%;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .learn-more-btn {
+        margin: 45px auto;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .image img {
+        max-width: 480px;
+        max-height: 300px;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .main-title {
+        font: normal normal 800 35px/63px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .shadow-title {
+        font: normal normal 800 35px/140px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .rewards-program-main .rewards-program-content .info {
+        flex-direction: column;
+    }
+
+    .rewards-program-main .rewards-program-content .info .image, .rewards-program-main .rewards-program-content .info .rewards-program-list {
+        width: 100%;
+        display: flex;
+        padding: 25px 0;
+    }
+
+    .rewards-program-main .rewards-program-content .info .image img {
+        margin: 0 auto;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info,
+    .job-poster-howWeHelp-main .first-section .first-section-content .info {
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 35px 0;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info .text,
+    .job-poster-howWeHelp-main .first-section .first-section-content .info .text {
+        width: 100%;
+        font: normal normal bold 32px/45px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info .image,
+    .job-poster-howWeHelp-main .first-section .first-section-content .info .image {
+        width: 100%;
+        display: flex;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info .image img,
+    .job-poster-howWeHelp-main .first-section .first-section-content .info .image img {
+        margin: 20px auto;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part,
+    .job-seeker-howItWorks-main .third-section .third-section-content .first-part,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .first-part,
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part,
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part,
+    .job-seeker-howItWorks-main .third-section .third-section-content .second-part,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part,
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part,
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part {
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list,
+    .job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list,
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list,
+    .job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list,
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list,
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list,
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list,
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list {
+        width: 100%;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part .image,
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .image,
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part .image,
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part .image,
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part .image,
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part .image {
+        width: 100%;
+        display: flex;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part .image img,
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .image img,
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part .image img,
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part .image img,
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part .image img,
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part .image img {
+        margin: 20px auto;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item .description {
+        max-width: 100%;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .image,
+    .job-seeker-howItWorks-main .third-section .third-section-content .first-part .image,
+    .job-seeker-howItWorks-main .third-section .third-section-content .second-part .image,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .image,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .image {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content {
+        flex-direction: column;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .title {
+        width: 100%;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .image {
+        width: 100%;
+        display: flex;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .image img {
+        margin: 0 auto;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info .text, .aboutUs-main .first-section .first-section-content .info .image {
+        width: 100%;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info .info-description {
+        max-width: 100%;
+    }
+
+
+    .aboutUs-main .first-section .first-section-content .info .info-description {
+        font: normal normal normal 16px/28px Poppins;
+        font-family: Poppins-Regular;
+        padding-bottom: 25px;
+    }
+
+    .aboutUs-main .second-section .second-section-content .info {
+        flex-direction: column-reverse;
+        padding-top: 20px;
+    }
+
+    .aboutUs-main .second-section .second-section-content .info .text {
+        width: 100%;
+        max-width: 100%;
+        font: normal normal 16px/33px Poppins;
+        font-family: Poppins-Medium;
+    }
+
+    .aboutUs-main .second-section .second-section-content .info .image {
+        width: 100%;
+        display: flex;
+    }
+
+    .aboutUs-main .second-section .second-section-content .info .image img {
+        margin: 20px auto;
+    }
+
+    .aboutUs-main .second-section .second-section-content .title .shadow-title {
+        font: normal normal 800 40px/80px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .aboutUs-main .second-section .second-section-content .title .main-title {
+        font: normal normal 800 35px/58px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .aboutUs-main .third-section .third-section-content {
+        padding: 80px 0 80px 0px;
+    }
+
+    .contactUs-main .contactUs-content .info {
+        align-items: flex-start;
+        padding-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .contactUs-main .contactUs-content .info .contact-form, .contactUs-main .contactUs-content .info .image {
+        width: 100%;
+    }
+}
+
+/*media screen 768px*/
+@media screen and (max-width: 768px) {
+    .main-container {
+        max-width: 720px;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part .slider-list .slider-item img {
+        max-width: 550px;
+        max-height: 500px;
+    }
+
+    .job-seeker-main .forth-section .slick-prev {
+        left: 0;
+    }
+
+    .job-seeker-main .forth-section .slick-next {
+        right: 0;
+    }
+
+    .rewards-program-main .rewards-program-content .info .image img {
+        max-width: 500px;
+        max-height: 300px;
+    }
+
+    .job-seeker-howItWorks-main .third-section .third-section-content {
+        padding: 60px 0;
+    }
+
+    .job-seeker-howItWorks-main .forth-section .forth-section-content {
+        padding: 30px 0 60px 0;
+    }
+
+    .job-seeker-howItWorks-main .second-section:after, .job-seeker-howItWorks-main .third-section:after, .job-seeker-howItWorks-main .forth-section:after,
+    .job-poster-howWeHelp-main .second-section:after, .job-poster-howWeHelp-main .third-section:after {
+        display: none;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info .image img {
+        max-width: 450px;
+        max-height: 450px;
+        margin: 20px auto;
+    }
+
+    .aboutUs-main .second-section .second-section-content .info .image img {
+        max-width: 380px;
+        max-height: 380px;
+    }
+
+    .aboutUs-main .third-section .third-section-content .title .shadow-title {
+        font: normal normal 800 40px/50px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .aboutUs-main .third-section .third-section-content .title .main-title {
+        font: normal normal 800 35px/50px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .contactUs-main .contactUs-content .info .image img {
+        max-width: 300px;
+    }
+
+    footer .footer-content .footer-links-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-content .footer-links-list .links-item {
+        border: none;
+    }
+
+    footer .footer-content .social-apps a img {
+        max-width: 150px;
+        max-height: 45px;
+    }
+}
+
+/*media screen 576px*/
+@media screen and (max-width: 576px) {
+    .main-container {
+        max-width: 520px;
+    }
+
+    header .navbar-brand img {
+        max-width: 130px;
+    }
+    .job-poster-aside .left-side span, .rewards-aside .left-side span {
+        font: normal normal 12px/21px Poppins;
+        font-family: Poppins-Medium;
+    }
+
+    .job-poster-aside .right-side a, .rewards-aside .right-side a {
+        font: normal normal 14px/22px Poppins;
+        font-family: Poppins-Medium;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-text-part .title {
+        font: normal normal 800 27px/25px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-text-part .get-started-btn, .aboutUs-main .first-section .first-section-content .info .get-started-btn {
+        padding: 3px;
+        width: 180px;
+        height: 45px;
+        font: normal normal 600 14px/25px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-image img {
+        max-width: 350px;
+        max-height: 300px;
+        margin: 30px auto;
+    }
+
+    .job-seeker-main .second-section .second-section-content .title .shadow-title,
+    .job-seeker-main .second-section .second-section-content .title .main-title {
+        font: normal normal 800 28px/40px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .second-section .second-section-content .image img {
+        max-width: 350px;
+        max-height: 300px;
+    }
+
+    .job-seeker-main .third-section .third-section-content .title .shadow-title {
+        font: normal normal bold 30px/70px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .third-section .third-section-content .title .main-title {
+        font: normal normal bold 25px/60px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list {
+        height: 100%;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item span {
+        font: normal normal normal 16px/28px Bree Serif;
+        font-family: Bree-Serif-Regular;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item .koligate-logo {
+        width: 160px;
+        height: 160px;
+    }
+
+    .job-seeker-main .third-section .third-section-content .koligate-specialist-list .koligate-specialist-item .koligate-logo:after {
+        width: 190px;
+        height: 190px;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .title .shadow-title, .job-seeker-main .forth-section .forth-section-content .title .main-title {
+        font: normal normal 800 25px/30px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .fifth-section .fifth-section-content .title .main-title {
+        font: normal normal bold 28px/38px Poppins;
+        font-family: Poppins-Bold;
+        max-width: 450px;
+    }
+
+    .job-seeker-main .fifth-section .fifth-section-content .title .shadow-title {
+        font: normal normal bold 30px/75px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+
+    .job-seeker-main .fifth-section .fifth-section-content .koligate-benefits-list {
+        gap: 30px 100px;
+    }
+
+    .job-seeker-main .sixth-section .sixth-section-content .koligate-benefits-list .koligate-benefits-item .front-card span {
+        font: normal normal 600 16px/32px Poppins;
+        font-family: Poppins-Regular;
+        max-width: 200px;
+    }
+
+    .job-seeker-main .sixth-section .sixth-section-content .koligate-benefits-list .koligate-benefits-item .back-card,
+    .job-seeker-main .sixth-section .sixth-section-content .koligate-benefits-list .koligate-benefits-item .front-card {
+        width: 280px;
+        height: 230px;
+    }
+
+    .job-seeker-main .sixth-section .sixth-section-content .koligate-benefits-list .koligate-benefits-item .back-card span {
+        max-width: 100%;
+        font: normal normal 600 14px/20px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-main .sixth-section .sixth-section-content .koligate-benefits-list .koligate-benefits-item .front-card img,
+    .job-seeker-main .sixth-section .sixth-section-content .koligate-benefits-list .koligate-benefits-item .back-card img {
+        width: 55px;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part .koligate-screens .koligate-screens-item {
+        font: normal normal 18px/40px Poppins;
+        font-family: Poppins-Medium;
+        padding-left: 38px;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part .koligate-screens .learn-more-btn {
+        width: 150px;
+        height: 35px;
+        font: normal normal 600 14px/27px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .how-it-works .shadow-title {
+        font: normal normal bold 30px/62px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .how-it-works .main-title {
+        font: normal normal bold 25px/45px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .forth-section .slick-prev {
+        left: 40%;
+        top: 105%;
+    }
+
+    .job-seeker-main .forth-section .slick-next {
+        right: 40%;
+        top: 105%;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part .koligate-screens {
+        margin-top: 55px;
+    }
+
+    .job-seeker-main .forth-section .forth-section-content .slider-part .slider-list .slider-item img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .learn-more-btn {
+        width: 150px;
+        height: 35px;
+        font: normal normal 14px/27px Poppins;
+        font-family: Poppins-Regular;
+        margin: 30px auto;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .image img {
+        max-width: 350px;
+        max-height: 280px;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .main-title {
+        font: normal normal 800 25px/30px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .shadow-title {
+        font: normal normal 800 25px/100px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .rewards-program-main .rewards-program-content .title .shadow-title {
+        font: normal normal bold 35px/30px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .rewards-program-main .rewards-program-content .title .main-title {
+        font: normal normal bold 26px/38px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .rewards-program-main .rewards-program-content .description {
+        max-width: 100%;
+        font: normal normal normal 16px/24px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .rewards-program-main .rewards-program-content .info {
+        padding-bottom: 100px;
+    }
+
+    .rewards-program-main .rewards-program-content .info .image img {
+        max-width: 380px;
+        max-height: 250px;
+    }
+
+    .rewards-program-main .rewards-program-content .info .rewards-program-list ul .rewards-program-item,
+    .rewards-program-main .rewards-program-content .short-info {
+        font: normal normal normal 16px/22px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content,
+    .job-poster-howWeHelp-main .first-section .first-section-content {
+        padding: 120px 0 10px 0;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .page-path,
+    .job-poster-howWeHelp-main .first-section .first-section-content .page-path {
+        font: normal normal 14px/28px Poppins;
+        font-family: Poppins-Medium;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .title .shadow-title,
+    .job-poster-howWeHelp-main .first-section .first-section-content .title .shadow-title {
+        font: normal normal bold 38px/50px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .title .main-title,
+    .job-poster-howWeHelp-main .first-section .first-section-content .title .main-title {
+        font: normal normal bold 25px/50px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info .text,
+    .job-poster-howWeHelp-main .first-section .first-section-content .info .text {
+        font: normal normal bold 25px/35px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-howItWorks-main .first-section .first-section-content .info .image img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .job-poster-howWeHelp-main .first-section .first-section-content .info .image img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list .text-item .title,
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list .text-item .title,
+    .job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item .title,
+    .job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item .title,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list .text-item .title,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list .text-item .title,
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list .text-item .title,
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list .text-item .title,
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item .title,
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item .title {
+        font: normal normal 600 16px/50px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list .text-item .description,
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part .text-list .text-item .description,
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part .text-list .text-item .description {
+        font: normal normal normal 16px/22px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .first-part .image img {
+        max-width: 280px;
+        max-height: 280px;
+    }
+
+    .job-seeker-howItWorks-main .second-section .second-section-content .second-part .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .job-seeker-howItWorks-main .third-section .third-section-content .second-part .image img {
+        max-width: 200px;
+        max-height: 280px;
+    }
+
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .image img {
+        max-width: 300px;
+        max-height: 280px;
+    }
+
+    .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .image img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .title {
+        margin-top: 40px;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .shadow-title {
+        top: -10%;
+        font: normal normal 800 30px/39px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .main-title {
+        font: normal normal 800 25px/40px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .get-stated, .aboutUs-main .third-section .third-section-content .title .get-stated {
+        width: 150px;
+        height: 40px;
+        font: normal normal 600 16px/27px Poppins;
+        font-family: Poppins-Regular;
+        margin-top: 50px;
+    }
+
+    .job-seeker-howItWorks-main .fifth-section .fifth-section-content .image img, .aboutUs-main .third-section .third-section-content .image img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .job-poster-howWeHelp-main .second-section .second-section-content .first-part .image img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .job-poster-howWeHelp-main .second-section .second-section-content .second-part .image img {
+        max-width: 450px;
+        max-height: 350px;
+    }
+
+    .job-poster-howWeHelp-main .third-section .third-section-content {
+        padding: 50px 0;
+    }
+
+    .job-poster-howWeHelp-main .third-section .third-section-content .first-part .image img {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .job-poster-howWeHelp-main .third-section .third-section-content .second-part .image img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info .info-title {
+        font: normal normal 800 27px/63px Poppins;
+        font-family: Poppins-Bold;
+        padding-bottom: 10px;
+    }
+
+    .aboutUs-main .first-section .first-section-content .title .main-title {
+        font: normal normal bold 26px/35px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .aboutUs-main .first-section .first-section-content .title .shadow-title {
+        font: normal normal bold 35px/50px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info {
+        padding-top: 20px;
+    }
+
+    .aboutUs-main .first-section .first-section-content {
+        padding: 150px 0 60px 0;
+    }
+
+    .aboutUs-main .first-section .first-section-content .info .image img, .aboutUs-main .second-section .second-section-content .info .image img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .aboutUs-main .third-section .third-section-content {
+        padding: 40px 0;
+        flex-direction: column;
+    }
+
+    .aboutUs-main .third-section .third-section-content .title {
+        width: 100%;
+    }
+
+    .aboutUs-main .third-section .third-section-content .title .main-title {
+        font: normal normal 800 25px/38px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .aboutUs-main .third-section .third-section-content .title .shadow-title {
+        font: normal normal 800 30px/70px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .contactUs-main .contactUs-content {
+        padding-top: 130px;
+    }
+
+    .contactUs-main .contactUs-content .title .shadow-title {
+        font: normal normal bold 35px/60px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .contactUs-main .contactUs-content .title .main-title {
+        font: normal normal bold 30px/45px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .contactUs-main .contactUs-content .info .image img {
+        max-width: 250px;
+    }
+
+    .faq-main .title-section {
+        padding: 150px 0 40px 0;
+    }
+
+    .faq-main .title-section .title .shadow-title {
+        font: normal normal bold 30px/33px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .faq-main .title-section .title .main-title {
+        font: normal normal bold 25px/40px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .faq-main .first-faq-list .faq-list-content .faq-list .faq-item .title,
+    .faq-main .second-faq-list .faq-list-content .faq-list .faq-item .title,
+    .faq-main .third-faq-list .faq-list-content .faq-list .faq-item .title,
+    .faq-main .forth-faq-list .faq-list-content .faq-list .faq-item .title {
+        font: normal normal 600 18px/25px Poppins;
+        font-family: Poppins-Regular;
+    }
+
+    .faq-main .first-faq-list .faq-list-content .faq-list .faq-item .description,
+    .faq-main .second-faq-list .faq-list-content .faq-list .faq-item .description,
+    .faq-main .third-faq-list .faq-list-content .faq-list .faq-item .description,
+    .faq-main .forth-faq-list .faq-list-content .faq-list .faq-item .description {
+        font: normal normal 14px/25px Poppins;
+        font-family: Poppins-Medium;
+    }
+
+    .faq-main .title-section .search-bar input {
+        max-width: 350px;
+        max-height: 40px;
+        background-size: 5%;
+        font: normal normal normal 14px/28px Poppins;
+        font-family: Poppins-Regular;
+    }
+}
+
+/*media screen 411px*/
+@media screen and (max-width: 411px) {
+    .main-container {
+        max-width: 390px;
+    }
+
+    header .navbar-brand {
+        padding: 0 0 0 15px!important;
+    }
+
+    header .navbar-light .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    header .navbar-collapse.show {
+        padding: 35px 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main-container {
+        max-width: 360px;
+    }
+
+    .job-seeker-main .first-section .first-section-content .first-section-text-part .title {
+        font: normal normal 800 22px/25px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .second-section .second-section-content .title .shadow-title,
+    .job-seeker-main .second-section .second-section-content .title .main-title {
+        font: normal normal 800 22px/35px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .main-title {
+        font: normal normal 800 25px/22px Poppins;
+        font-family: Poppins-Bold;
+    }
+
+    .job-seeker-main .seventh-section .seventh-section-content .title .shadow-title {
+        font: normal normal 800 25px/37px Poppins;
+        font-family: Poppins-Bold;
+    }
+}

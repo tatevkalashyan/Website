@@ -1,0 +1,57 @@
+.contributors_content .title {
+    font: normal normal 800 52px/63px "Poppins-Bold";
+}
+.contributors_content .bg-black {
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0 0 no-repeat padding-box;
+}
+.contributors_content .text {
+    font: normal normal 20px/28px "Poppins-Medium";
+    color: #FFFFFF;
+}
+
+.contributors_content .bg-light {
+    background: transparent linear-gradient(74deg, #FFF7EC 0%, #E6FFFF 100%) 0 0 no-repeat padding-box;
+}
+.contributors_content .bg-light .title {
+    font: normal normal 600 25px/40px "Poppins-Medium";
+    color: #000000;
+    text-align: center;
+}
+.contributor-card_img {
+    width: 97px;
+    height: 97px;
+    margin-bottom: 20px;
+}
+.contributor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000!important;
+    flex: 1;
+    margin: 0 25px;
+}
+.contributor-card_name {
+    font: normal normal 600 25px/38px "Poppins-Medium";
+    white-space: nowrap;
+}
+.bg-black .contributor-card_name {
+   color: #ffffff;
+}
+.contributor-card_info {
+    font: normal normal 600 16px/25px "Poppins-Medium";
+    color: #000000;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.bg-black .contributor-card_info {
+    color: #ffffff;
+}
+.contributor-card_profession {
+    font: normal normal 600 16px/25px "Poppins-Medium";
+    color: #417EE7;
+    white-space: nowrap;
+}
+.bg-black .contributor-card_profession {
+    color: #01E69F;
+}

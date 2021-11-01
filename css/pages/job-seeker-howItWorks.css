@@ -1,0 +1,386 @@
+.job-seeker-howItWorks-main .first-section {
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content {
+    padding: 120px 0 64px 0;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .page-path {
+    text-align: end;
+    font: normal normal 16px/35px Poppins;
+    font-family: Poppins-Medium;
+    color: #01E9A1;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .page-path .underline,
+.job-seeker-howItWorks-main .first-section .first-section-content .page-path .underline:hover {
+    border-bottom: 1px solid #01E9A1;
+    text-decoration: none;
+    color: #01E9A1;
+}
+
+
+.job-seeker-howItWorks-main .first-section .first-section-content .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .title .shadow-title {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    top: -40%;
+    width: 100%;
+    margin: 0 auto;
+    font: normal normal bold 55px/50px Poppins;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .title .main-title {
+    font: normal normal bold 32px/50px Poppins;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .info .text {
+    width: 75%;
+    color: #ffffff;
+    font: normal normal bold 42px/63px Poppins;
+    font-family: Poppins-Bold;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .info .text .green {
+    color: #01E9A1;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .info .image {
+    width: 25%;
+}
+
+.job-seeker-howItWorks-main .first-section .first-section-content .info .image img {
+    max-width: 338px;
+    max-height: 313px;
+
+}
+
+.job-seeker-howItWorks-main .second-section {
+    position: relative;
+    width: 100%;
+    background: transparent linear-gradient(180deg, #FFF7EC 0%, #F3F7FC 100%) 0% 0% no-repeat padding-box;
+    margin: 20px 0;
+}
+
+/* .job-seeker-howItWorks-main .second-section:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("../../images/line1.svg");
+    background-repeat: no-repeat;
+    background-position: 40%;
+    position: absolute;
+    top: 0;
+} */
+
+.job-seeker-howItWorks-main .second-section .second-section-content {
+    padding: 45px 0 90px 0;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .first-part, .job-seeker-howItWorks-main .second-section .second-section-content .second-part,
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part, .job-seeker-howItWorks-main .third-section .third-section-content .second-part,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .first-part, .job-seeker-howItWorks-main .forth-section .forth-section-content .second-part {
+    display: flex;
+    align-items: center;
+}
+
+.job-seeker-howItWorks-main .forth-section .forth-section-content .second-part {
+    padding-top: 60px;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list,
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list {
+    width: 70%;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list,
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list {
+    width: 65%;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list .text-item:nth-child(1),
+.job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list .text-item:nth-child(1),
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item:nth-child(1),
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item:nth-child(1),
+.job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list .text-item:nth-child(1),
+.job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list .text-item:nth-child(1) {
+    padding-bottom: 27px;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list .text-item .title,
+.job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list .text-item .title,
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item .title,
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item .title,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list .text-item .title,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list .text-item .title {
+    font: normal normal 600 18px/50px Poppins;
+    font-family: Poppins-Regular;
+    color: #06759C;
+}
+
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item .title.green,
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item .title.green {
+    color: #01E9A1;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .first-part .text-list .text-item .description,
+.job-seeker-howItWorks-main .second-section .second-section-content .second-part .text-list .text-item .description,
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item .description,
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item .description,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .text-list .text-item .description,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .text-list .text-item .description {
+    max-width: 875px;
+    width: 100%;
+    font: normal normal normal 18px/22px Poppins;
+    font-family: Poppins-Regular;
+    color: #102D37;
+}
+
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part .text-list .text-item .description,
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .text-list .text-item .description {
+    color: #ffffff;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .first-part .image {
+    display: flex;
+    width: 30%;
+    z-index: 1;
+}
+
+.job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .image {
+    display: flex;
+    width: 60%;
+    z-index: 1;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .second-part .image,
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .image,
+.job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .image {
+    width: 45%;
+    display: flex;
+    z-index: 1;
+}
+
+.job-seeker-howItWorks-main .forth-section .forth-section-content .first-part .image img {
+    margin: 0 auto;
+    max-width: 447px;
+    max-height: 312px;
+}
+
+.job-seeker-howItWorks-main .forth-section .forth-section-content .second-part .image img {
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 329px;
+}
+
+.job-seeker-howItWorks-main .second-section .second-section-content .first-part .image img {
+    max-width: 356px;
+    max-height: 327px;
+}
+
+
+.job-seeker-howItWorks-main .second-section .second-section-content .second-part .image img {
+    max-width: 553px;
+    max-height: 441px;
+}
+
+.job-seeker-howItWorks-main .third-section {
+    position: relative;
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+/* .job-seeker-howItWorks-main .third-section:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("../../images/line2.svg");
+    background-repeat: no-repeat;
+    background-position: 73%;
+    position: absolute;
+    top: 0;
+} */
+
+.job-seeker-howItWorks-main .third-section .third-section-content {
+    padding-bottom: 160px;
+}
+
+.job-seeker-howItWorks-main .third-section .third-section-content .first-part .image {
+    display: flex;
+    width: 60%;
+    z-index: 1;
+}
+
+.job-seeker-howItWorks-main .third-section .third-section-content .second-part .image img {
+    max-width: 389px;
+    max-height: 323px;
+    margin: 0 auto;
+}
+
+.job-seeker-howItWorks-main .forth-section {
+    position: relative;
+    width: 100%;
+    background: transparent linear-gradient(180deg, #FFF1FF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    margin: 0 0 20px 0;
+}
+
+.white{
+    height: 24px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    z-index: 99999999;
+}
+
+/* 
+.job-seeker-howItWorks-main .forth-section:after {
+    content: "";
+    width: 100%;
+    height: 95%;
+    display: block;
+    background-image: url("../../images/line3.svg");
+    background-repeat: no-repeat;
+    background-position: 60%;
+    position: absolute;
+    top: 0;
+    background-size: 50% 100%;
+} */
+
+.job-seeker-howItWorks-main .forth-section .forth-section-content {
+    padding: 30px 0 145px 0;
+}
+
+.job-seeker-howItWorks-main .fifth-section {
+    width: 100%;
+    background: transparent radial-gradient(closest-side at 67% 46%, #102D37 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content {
+    display: flex;
+    align-items: center;
+    padding: 38px 0 80px 0;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .title {
+    position: relative;
+    width: 70%;
+    margin-top: 100px;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .shadow-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    top: -25%;
+    width: 100%;
+    margin: 0 auto 0 -15px;
+    font: normal normal 800 52px/85px "Poppins-Bold";
+    color: #ffffff;
+    zoom: 1.2;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .main-title {
+    font: normal normal 800 42px/56px Poppins;
+    font-family: Poppins-Bold;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .main-title .green {
+    color: #01E9A1;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .get-stated {
+    width: 214px;
+    height: 48px;
+    background: transparent linear-gradient(100deg, #02E6A9 0%, #04BBFD 100%) 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal 600 18px/27px Poppins;
+    font-family: Poppins-Regular;
+    color: #0F2932;
+    margin-top: 45px;
+    -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    text-decoration: none !important;
+    transition: all 300ms ease-in-out;
+    opacity: 1;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .title .get-stated:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+    text-decoration: none !important;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .image {
+    width: 30%;
+}
+
+.job-seeker-howItWorks-main .fifth-section .fifth-section-content .image img {
+    max-width: 344px;
+    max-height: 306px;
+}
+
+@-webkit-keyframes pulsing {
+    to {
+        box-shadow: 0 0 0 8px rgba(143, 245, 217, 255)
+    }
+}
+
+@-moz-keyframes pulsing {
+    to {
+        box-shadow: 0 0 0 8px rgba(143, 245, 217, 255);
+    }
+}
+
+@-ms-keyframes pulsing {
+    to {
+        box-shadow: 0 0 0 8px rgba(143, 245, 217, 255);
+    }
+}
+
+@keyframes pulsing {
+    to {
+        box-shadow: 0 0 0 8px rgba(143, 245, 217, 255);
+    }
+}
+
+
+
